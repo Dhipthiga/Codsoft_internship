@@ -1,0 +1,18 @@
+🔶Guess Number Game
+This project is a simple Java-based number guessing game. 
+
+Below is a brief overview of how the game works:
+
+🔹Objective: The player must guess a randomly generated number between 1 and 100.
+🔹Attempts: The player is given a maximum of 3 attempts to guess the correct number.
+🔹Clue Feature:
+  1. The player has the option to receive clues.
+  2. If clues are enabled, hints will be provided after each guess, indicating whether the correct number is higher or lower than the guessed number.
+  3. If clues are disabled, the player must guess without any hints.
+🔹Random Number Generation: The game generates a random number using Java’s Random class.
+🔹Game Flow:
+  a. The player is prompted to guess a number.
+  b. If the guess is correct, a congratulatory message is displayed, along with the number of attempts it took.
+  c. If the player does not guess the correct number within three attempts, the game ends, revealing the correct number.
+  d.This project demonstrates basic concepts in Java, such as user input handling, control structures, and random number generation.
+
